@@ -14,7 +14,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <?php if ($current_page == 'peta.php'): ?>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../style.css">
     <?php endif; ?>
     <style>
       body { font-family: 'Inter', sans-serif; }
