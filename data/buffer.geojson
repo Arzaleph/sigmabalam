@@ -1,0 +1,17 @@
+{
+    "type":"FeatureCollection",
+    "features":[
+      {
+        "type":"Feature",
+        "properties":{
+          "radius":"3000 meter"
+        },
+        "geometry":{
+          "type":"Polygon",
+          "coordinates":[
+            [...]
+          ]
+        }
+      }
+    ]
+  }

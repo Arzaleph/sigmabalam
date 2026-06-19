@@ -1,0 +1,2037 @@
+{
+  "type": "FeatureCollection",
+  "name": "sma",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT Nurul Falah",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.1974, -5.4317 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA JANNATUN NAIM INTERNATIONAL COLLEGE",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2288, -5.4351 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS BODHISATTVA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2543, -5.4509 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 8 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2578, -5.4492 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS ISLAMIYAH",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2686, -5.4476 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 17 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.3249, -5.4634 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 6 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2964, -5.4387 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS YPPL PANJANG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.3222, -5.4661 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS BPK PENABUR",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2701, -5.4182 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS NUSANTARA BANDARLAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2648, -5.4143 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS UTAMA 1",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.273, -5.4164 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA STELLA GRACIA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2654, -5.4395 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 4 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2695, -5.4356 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS IMMANUEL BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2639, -5.4294 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS MUHAMMADIYAH 1",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2412, -5.4311 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS TAMAN SISWA TELUK BETUNG UTARA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2659, -5.4446 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 2 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2549, -5.4266 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 3 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2443, -5.4198 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS ADIGUNA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2214, -5.428 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS Islam Nazhirah",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.253573, -5.417793 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS PELITA BANGSA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2292, -5.3868 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS PERINTIS 1 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2481, -5.4175 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS PERINTIS 2 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2329, -5.4277 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 16 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2292, -5.4026 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 9 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2482, -5.3906 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS DCC GLOBAL SCHOOL",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.245, -5.3901 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS Islam Cendikia",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2299, -5.4019 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA PENYIMBANG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2574719, -5.3943116 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS BINA MULYA KEDATON",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2551, -5.3949 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS SURYA DHARMA 2 KEDATON",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2673, -5.3839 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAIT PERMATA BUNDA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.315, -5.3941 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 12 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.3016, -5.3817 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 5 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2847, -5.3796 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT BAITUL JANNAH",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.22, -5.3843 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT Daarul Ilmi",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2098, -5.3853 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT FITRAH INSANI",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.1999, -5.4114 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 14 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2126, -5.3802 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 7 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2013, -5.4041 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS AL HUSNA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.212, -5.3888 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS BUDAYA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2094, -5.3913 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS PERSADA BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2087, -5.3893 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS YAMAMA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.1917, -5.4044 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA ISLAM GLOBAL SURYA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2303297, -5.3767265 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT MIFTAHUL JANNAH",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.240619, -5.353615 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA QURAN DARUL FATTAH",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2383, -5.3745 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S AL KAUTSAR",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2344, -5.3641 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S DARMA BANGSA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2504, -5.378 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 13 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2561, -5.3466 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS GLOBAL MADANI",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2247, -5.3687 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT ABDURRAHMAN IBNU AUF",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2866, -5.3578 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S GAJAH MADA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2771, -5.3724 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 15 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2679, -5.3603 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS PANGUDI LUHUR",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2625, -5.3566 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS YADIKA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.256826, -5.356107 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S FRANSISCUS",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2505, -5.3734 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S MUHAMMADIYAH 2",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2526, -5.3777 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS AL - AZHAR",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2705, -5.3803 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 10 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2762, -5.4287 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S TUNAS MEKAR INDONESIA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2817, -5.4005 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 1 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.265241, -5.422381 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S ARJUNA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2507, -5.4183 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S UTAMA 2",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2589, -5.4221 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S XAVERIUS BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2684, -5.425 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S YP UNILA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2562, -5.4153 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS UTAMA 3",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2592, -5.4223 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA IT Quran Qordhova",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.233052, -5.384177 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAS IT AR RAIHAN",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2094, -5.3789 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA S NURUL ISLAM",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2851, -5.4391 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMA ASSAFINA",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2615, -5.4567 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "full_id": null,
+        "osm_id": null,
+        "osm_type": "node",
+        "amenity": "school",
+        "website": null,
+        "operator:type": null,
+        "operator": null,
+        "addr:neighbourhood": null,
+        "addr:district": null,
+        "grades": null,
+        "religion": null,
+        "addr:subdistrict": null,
+        "addr:province": null,
+        "addr:postcode": null,
+        "addr:housename": null,
+        "addr:city": "Bandar Lampung",
+        "addr:street": null,
+        "addr:housenumber": null,
+        "name": "SMAN 11 BANDAR LAMPUNG",
+        "education": "school"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 105.2432, -5.4726 ]
+      }
+    }
+  ]
+}

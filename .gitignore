@@ -1,0 +1,41 @@
+# QGIS Project Files (backup dan temporary)
+*.qgz~
+*.qgs~
+*.tmp
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE dan Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+temp/
+tmp/
+*.bak
+
+# Large files yang mungkin di-exclude
+*.zip
+*.rar
+*.7z
+
+# Cache
+__pycache__/
+*.pyc
+.cache/
+
+# Output files (opsional: uncomment jika ingin exclude)
+# output/maps/*.png
+# output/maps/*.pdf
+# output/analysis/*
+
+# Environment
+.env
+.env.local
