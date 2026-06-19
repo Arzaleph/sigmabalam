@@ -1,9 +1,6 @@
 <?php include 'includes/header.php'; ?>
 
 <style>
-/* ============================================================
-   ENTERPRISE SIDEBAR MAP — VARIABLES
-   ============================================================ */
 :root {
   --sb-width: 270px;
   --nav-h: 64px;
@@ -26,9 +23,6 @@
   --transition: 0.22s cubic-bezier(.22,1,.36,1);
 }
 
-/* ============================================================
-   RESET & BODY
-   ============================================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -39,18 +33,12 @@ body {
   overflow: hidden;
 }
 
-/* ============================================================
-   PAGE LAYOUT: sidebar + map
-   ============================================================ */
 #page-layout {
   display: flex;
   height: calc(100vh - var(--nav-h));
   overflow: hidden;
 }
 
-/* ============================================================
-   SIDEBAR
-   ============================================================ */
 #sidebar {
   width: var(--sb-width);
   min-width: var(--sb-width);
@@ -64,7 +52,6 @@ body {
   animation: slideInLeft 0.4s var(--transition) both;
 }
 
-/* --- Sidebar Brand Header --- */
 .sb-brand {
   padding: 16px 16px 12px;
   border-bottom: 1px solid var(--border);
@@ -101,7 +88,6 @@ body {
   margin-top: 2px;
 }
 
-/* --- Sidebar Scrollable Body --- */
 .sb-body {
   flex: 1;
   overflow-y: auto;
@@ -113,7 +99,6 @@ body {
 .sb-body::-webkit-scrollbar-track { background: transparent; }
 .sb-body::-webkit-scrollbar-thumb { background: rgba(99,179,237,0.2); border-radius: 4px; }
 
-/* --- Section Label --- */
 .sb-section-label {
   padding: 14px 16px 6px;
   font-size: 9.5px;
@@ -133,9 +118,6 @@ body {
   background: var(--border);
 }
 
-/* ============================================================
-   SEARCH BOX
-   ============================================================ */
 .sb-search-wrap {
   padding: 4px 14px 8px;
   position: relative;
@@ -171,7 +153,6 @@ body {
 
 #search-sekolah::placeholder { color: var(--text-lo); }
 
-/* Search Results (drops down within sidebar, not floating) */
 #search-results {
   position: absolute;
   top: calc(100% - 2px);
@@ -213,9 +194,6 @@ body {
 
 .sr-item i { color: var(--accent-2); font-size: 11px; width: 14px; text-align: center; }
 
-/* ============================================================
-   ZONE TOGGLE SECTION
-   ============================================================ */
 .zone-list { padding: 4px 14px 2px; display: flex; flex-direction: column; gap: 4px; }
 
 .zone-row {
@@ -231,7 +209,6 @@ body {
 
 .zone-row:hover { background: rgba(255,255,255,0.04); }
 
-/* Custom toggle switch */
 .zone-toggle {
   appearance: none;
   -webkit-appearance: none;
@@ -266,12 +243,10 @@ body {
 
 .zone-toggle:checked { border-color: transparent; }
 
-/* Zone-specific colors */
 #chk-hijau:checked  { background: #10b981; box-shadow: 0 0 8px rgba(16,185,129,0.4); }
 #chk-kuning:checked { background: #f59e0b; box-shadow: 0 0 8px rgba(245,158,11,0.4); }
 #chk-merah:checked  { background: #f43f5e; box-shadow: 0 0 8px rgba(244,63,94,0.4); }
 
-/* Zone color dot with glow */
 .zone-dot {
   width: 9px;
   height: 9px;
@@ -287,9 +262,6 @@ body {
 .zone-text-main { font-size: 12px; font-weight: 600; color: var(--text-hi); display: block; }
 .zone-text-sub  { font-size: 10px; color: var(--text-lo); display: block; }
 
-/* ============================================================
-   MARKER TOGGLE
-   ============================================================ */
 .marker-row {
   margin: 4px 14px 0;
   display: flex;
@@ -304,7 +276,6 @@ body {
 
 .marker-row:hover { background: rgba(255,255,255,0.04); }
 
-/* Reuse zone-toggle style for marker toggle */
 .marker-toggle {
   appearance: none;
   -webkit-appearance: none;
@@ -353,9 +324,6 @@ body {
   box-shadow: 0 0 6px rgba(0,86,179,0.6);
 }
 
-/* ============================================================
-   BASEMAP SECTION
-   ============================================================ */
 .basemap-list {
   padding: 4px 14px 6px;
   display: flex;
@@ -396,18 +364,6 @@ body {
 
 .basemap-btn.active i { color: var(--accent-2); }
 
-.basemap-preview {
-  width: 28px;
-  height: 20px;
-  border-radius: 4px;
-  overflow: hidden;
-  flex-shrink: 0;
-  border: 1px solid rgba(255,255,255,0.1);
-}
-
-/* ============================================================
-   STATS SECTION
-   ============================================================ */
 .stats-grid {
   padding: 4px 14px 6px;
   display: grid;
@@ -465,7 +421,6 @@ body {
   font-weight: 500;
 }
 
-/* Loading dot for stat */
 .stat-dot {
   width: 7px;
   height: 7px;
@@ -479,9 +434,6 @@ body {
   50%       { opacity: 0.4; transform: scale(0.7); }
 }
 
-/* ============================================================
-   SIDEBAR FOOTER
-   ============================================================ */
 .sb-footer {
   padding: 12px 16px;
   border-top: 1px solid var(--border);
@@ -504,9 +456,6 @@ body {
 .sb-footer-text { font-size: 10px; color: var(--text-lo); line-height: 1.5; }
 .sb-footer-text span { color: var(--accent-2); font-weight: 600; }
 
-/* ============================================================
-   MAP AREA
-   ============================================================ */
 #map-area {
   flex: 1;
   position: relative;
@@ -520,7 +469,6 @@ body {
   z-index: 1;
 }
 
-/* Subtle vignette on map edges */
 #map-area::after {
   content: '';
   position: absolute;
@@ -530,9 +478,6 @@ body {
   z-index: 900;
 }
 
-/* ============================================================
-   LOADING TOAST (center-bottom of map area)
-   ============================================================ */
 #map-loading {
   position: absolute;
   bottom: 32px;
@@ -542,7 +487,6 @@ body {
   background: rgba(8,13,26,0.88);
   border: 1px solid var(--border-hi);
   backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
   border-radius: 24px;
   padding: 8px 18px;
   display: flex;
@@ -571,9 +515,6 @@ body {
   flex-shrink: 0;
 }
 
-/* ============================================================
-   LEAFLET OVERRIDES
-   ============================================================ */
 .leaflet-control-zoom {
   border: none !important;
   border-radius: var(--radius-md) !important;
@@ -584,7 +525,6 @@ body {
 .leaflet-control-zoom a {
   background: rgba(8,13,26,0.85) !important;
   backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
   color: var(--text-hi) !important;
   border: 1px solid var(--border) !important;
   border-radius: 0 !important;
@@ -618,7 +558,6 @@ body {
   box-shadow: var(--shadow-lg) !important;
   color: var(--text-hi) !important;
   backdrop-filter: blur(14px) !important;
-  -webkit-backdrop-filter: blur(14px) !important;
 }
 
 .leaflet-popup-content { font-size: 13px; line-height: 1.6; margin: 12px 15px; }
@@ -626,38 +565,19 @@ body {
 .leaflet-popup-tip { background: rgba(8,13,26,0.94) !important; }
 .leaflet-popup-close-button { color: var(--text-lo) !important; top: 8px !important; right: 10px !important; font-size: 18px !important; }
 
-/* Hide the default Leaflet layers control widget */
 .leaflet-control-layers { display: none !important; }
 
-/* ============================================================
-   KEYFRAMES
-   ============================================================ */
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-16px); }
-  to   { opacity: 1; transform: translateX(0); }
-}
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes slideInLeft { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: translateX(0); } }
 </style>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<!-- ============================================================
-     PAGE LAYOUT
-     ============================================================ -->
 <div id="page-layout">
-
-  <!-- ==================== SIDEBAR ==================== -->
   <aside id="sidebar">
-
-    <!-- Brand -->
     <div class="sb-brand">
-      <div class="sb-brand-icon">
-        <i class="fa-solid fa-map-location-dot"></i>
-      </div>
+      <div class="sb-brand-icon"><i class="fa-solid fa-map-location-dot"></i></div>
       <div class="sb-brand-info">
         <h3>Peta Interaktif</h3>
         <p>SMA Bandar Lampung · WebGIS</p>
@@ -665,25 +585,17 @@ body {
     </div>
 
     <div class="sb-body">
-
-      <!-- ===== SEARCH ===== -->
       <div class="sb-section-label"><i class="fa-solid fa-magnifying-glass" style="font-size:9px;"></i> Pencarian</div>
       <div class="sb-search-wrap">
         <div class="sb-search-box">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" id="search-sekolah"
-                 placeholder="Cari nama SMA…"
-                 autocomplete="off">
+          <input type="text" id="search-sekolah" placeholder="Cari nama SMA…" autocomplete="off">
         </div>
-        <!-- ⚠️ CRITICAL: id="search-results" dipakai oleh app.js — JANGAN UBAH -->
         <div id="search-results" class="hidden"></div>
       </div>
 
-      <!-- ===== ZONA AKSESIBILITAS ===== -->
       <div class="sb-section-label"><i class="fa-solid fa-circle-nodes" style="font-size:9px;"></i> Zona Aksesibilitas</div>
       <div class="zone-list">
-
-        <!-- ⚠️ CRITICAL: id="chk-hijau" dipakai app.js event listener — JANGAN UBAH -->
         <label class="zone-row" for="chk-hijau">
           <input type="checkbox" id="chk-hijau" class="zone-toggle" checked>
           <span class="zone-dot g"></span>
@@ -692,8 +604,6 @@ body {
             <span class="zone-text-sub">≤ 3 Menit Berkendara</span>
           </span>
         </label>
-
-        <!-- ⚠️ CRITICAL: id="chk-kuning" dipakai app.js event listener — JANGAN UBAH -->
         <label class="zone-row" for="chk-kuning">
           <input type="checkbox" id="chk-kuning" class="zone-toggle" checked>
           <span class="zone-dot y"></span>
@@ -702,8 +612,6 @@ body {
             <span class="zone-text-sub">≤ 6 Menit Berkendara</span>
           </span>
         </label>
-
-        <!-- ⚠️ CRITICAL: id="chk-merah" dipakai app.js event listener — JANGAN UBAH -->
         <label class="zone-row" for="chk-merah">
           <input type="checkbox" id="chk-merah" class="zone-toggle" checked>
           <span class="zone-dot r"></span>
@@ -712,12 +620,10 @@ body {
             <span class="zone-text-sub">≤ 10 Menit Berkendara</span>
           </span>
         </label>
-
       </div>
 
-      <!-- ===== MARKER SMA ===== -->
       <div class="sb-section-label"><i class="fa-solid fa-location-dot" style="font-size:9px;"></i> Marker</div>
-      <label class="marker-row" for="chk-marker" id="marker-row-label">
+      <label class="marker-row" for="chk-marker">
         <input type="checkbox" id="chk-marker" class="marker-toggle" checked>
         <span class="marker-icon-badge"></span>
         <span class="zone-text">
@@ -726,7 +632,6 @@ body {
         </span>
       </label>
 
-      <!-- ===== BASEMAP ===== -->
       <div class="sb-section-label"><i class="fa-solid fa-layer-group" style="font-size:9px;"></i> Basemap</div>
       <div class="basemap-list">
         <button class="basemap-btn active" id="btn-osm" onclick="switchBasemap('osm')">
@@ -739,18 +644,13 @@ body {
         </button>
       </div>
 
-      <!-- ===== STATISTIK CEPAT ===== -->
       <div class="sb-section-label"><i class="fa-solid fa-chart-bar" style="font-size:9px;"></i> Statistik</div>
       <div class="stats-grid">
-
         <div class="stat-card">
-          <div class="stat-card-top">
-            <div class="stat-icon blue"><i class="fa-solid fa-school"></i></div>
-          </div>
+          <div class="stat-card-top"><div class="stat-icon blue"><i class="fa-solid fa-school"></i></div></div>
           <div class="stat-value" id="stat-total-sma">—</div>
           <div class="stat-label">TOTAL SMA</div>
         </div>
-
         <div class="stat-card">
           <div class="stat-card-top">
             <div class="stat-icon teal"><i class="fa-solid fa-circle-check"></i></div>
@@ -759,65 +659,41 @@ body {
           <div class="stat-value" id="stat-loaded">—</div>
           <div class="stat-label">LOADED</div>
         </div>
-
         <div class="stat-card">
-          <div class="stat-card-top">
-            <div class="stat-icon violet"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
+          <div class="stat-card-top"><div class="stat-icon violet"><i class="fa-solid fa-magnifying-glass-plus"></i></div></div>
           <div class="stat-value" id="stat-zoom">12</div>
           <div class="stat-label">ZOOM LEVEL</div>
         </div>
-
         <div class="stat-card">
-          <div class="stat-card-top">
-            <div class="stat-icon amber"><i class="fa-solid fa-map-pin"></i></div>
-          </div>
+          <div class="stat-card-top"><div class="stat-icon amber"><i class="fa-solid fa-map-pin"></i></div></div>
           <div class="stat-value">20</div>
           <div class="stat-label">KECAMATAN</div>
         </div>
-
-      </div>
-
-    </div><!-- /sb-body -->
-
-    <!-- Footer -->
-    <div class="sb-footer">
-      <div class="sb-footer-dot"></div>
-      <div class="sb-footer-text">
-        Data isokron via <span>OpenRouteService</span> · Realtime
       </div>
     </div>
 
-  </aside><!-- /sidebar -->
+    <div class="sb-footer">
+      <div class="sb-footer-dot"></div>
+      <div class="sb-footer-text">Data isokron via <span>OpenRouteService</span> · Realtime</div>
+    </div>
+  </aside>
 
-  <!-- ==================== MAP AREA ==================== -->
   <div id="map-area">
-    <!-- ⚠️ CRITICAL: id="map" dipakai oleh app.js L.map('map') — JANGAN UBAH -->
     <div id="map"></div>
-
-    <!-- Loading toast -->
     <div id="map-loading">
       <div class="spinner"></div>
       <span>Memuat data zona aksesibilitas…</span>
     </div>
   </div>
+</div>
 
-</div><!-- /page-layout -->
-
-<!-- ============================================================
-     SCRIPTS — Leaflet + app.js (semua logika zona ada di app.js)
-     ============================================================ -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script src="app.js"></script>
 
 <script>
-/* ============================================================
-   SIDEBAR ENHANCEMENTS
-   (Tidak menyentuh logika zona app.js — hanya menambah fitur baru)
-   ============================================================ */
-
-// ----- BASEMAP SWITCHER -----
+// ----- DASHBOARD INTERFACES SINKRONISASI -----
 function switchBasemap(type) {
   document.querySelectorAll('.basemap-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('btn-' + type).classList.add('active');
@@ -830,40 +706,28 @@ function switchBasemap(type) {
   }
 }
 
-// ----- MARKER TOGGLE (smaLayer) -----
 document.getElementById('chk-marker').addEventListener('change', function(e) {
   if (typeof smaLayer !== 'undefined' && smaLayer) {
-    if (e.target.checked) {
-      smaLayer.addTo(map);
-    } else {
-      map.removeLayer(smaLayer);
-    }
+    if (e.target.checked) { map.addLayer(smaLayer); } else { map.removeLayer(smaLayer); }
   }
 });
 
-// ----- ZOOM STAT — live update -----
 map.on('zoomend', function() {
   document.getElementById('stat-zoom').textContent = map.getZoom();
 });
 
-// ----- LOADING INDICATOR -----
 const loadingEl = document.getElementById('map-loading');
 let pendingReqs = 0;
-
 const _origFetch = window.fetch;
 window.fetch = function(...args) {
   pendingReqs++;
   loadingEl.classList.remove('hidden');
   return _origFetch.apply(this, args).finally(() => {
     pendingReqs = Math.max(0, pendingReqs - 1);
-    if (pendingReqs === 0) {
-      setTimeout(() => loadingEl.classList.add('hidden'), 1000);
-    }
+    if (pendingReqs === 0) { setTimeout(() => loadingEl.classList.add('hidden'), 800); }
   });
 };
 
-// ----- STATS: Total SMA & Loaded -----
-// Poll until smaLayer is ready (loaded by app.js after fetch)
 function updateStats() {
   if (typeof smaLayer !== 'undefined' && smaLayer) {
     let count = 0;
@@ -871,17 +735,15 @@ function updateStats() {
     if (count > 0) {
       document.getElementById('stat-total-sma').textContent = count;
       document.getElementById('stat-loaded').textContent = 'Ya';
-      // Change dot to solid green
       const dot = document.getElementById('loaded-dot');
       if (dot) { dot.style.background = '#10b981'; dot.style.animation = 'none'; }
-      return; // done
+      return;
     }
   }
   setTimeout(updateStats, 800);
 }
 setTimeout(updateStats, 1500);
 
-// ----- RESTYLE SEARCH RESULTS (app.js uses plain divs) -----
 const searchResultsEl = document.getElementById('search-results');
 const observer = new MutationObserver(() => {
   searchResultsEl.querySelectorAll('div:not(.sr-item)').forEach(el => {
@@ -892,6 +754,5 @@ const observer = new MutationObserver(() => {
 });
 observer.observe(searchResultsEl, { childList: true });
 </script>
-
 </body>
 </html>

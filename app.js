@@ -3,16 +3,15 @@
 // =======================
 const map = L.map('map').setView([-5.429, 105.261], 12);
 
-// Buat custom pane untuk mengontrol penumpukan poligon dan titik
 map.createPane('kecamatanPane');
-map.getPane('kecamatanPane').style.zIndex = 400; // Paling Bawah
+map.getPane('kecamatanPane').style.zIndex = 400; 
 
 map.createPane('isochronePane');
-map.getPane('isochronePane').style.zIndex = 450; // Di Tengah (Aksesibilitas ORS)
+map.getPane('isochronePane').style.zIndex = 450; 
 
 map.createPane('titikSekolahPane');
-map.getPane('titikSekolahPane').style.zIndex = 650; // Paling Atas (Marker Bulat)
-map.getPane('titikSekolahPane').style.pointerEvents = 'auto'; // Pastikan bisa diklik
+map.getPane('titikSekolahPane').style.zIndex = 650; 
+map.getPane('titikSekolahPane').style.pointerEvents = 'auto'; 
 
 // =======================
 // BASE LAYERS
@@ -36,22 +35,15 @@ let smaLayer;
 let kecamatanLayer;
 let bufferLayer;
 
-// Grup layer untuk masing-masing warna aksesibilitas
 const layerHijau = L.layerGroup().addTo(map);
 const layerKuning = L.layerGroup().addTo(map);
 const layerMerah = L.layerGroup().addTo(map);
 
-// =======================
-// HELPER AUTO-DETEKSI ATRIBUT NAMA
-// =======================
 function getFeatureName(properties) {
     if (!properties) return "Tanpa Nama";
-    return properties.name || properties.nama || properties.NAME || properties.NAMA || "Tanpa Nama";
+    return properties.name || properties.nama || properties.NAME || properties.nama_sekolah || "Tanpa Nama";
 }
 
-// =======================
-// CHOROPLETH WARNA KECAMATAN
-// =======================
 function getColor(d){
     return d > 80 ? '#006837' :
            d > 60 ? '#31a354' :
@@ -66,13 +58,13 @@ function styleKecamatan(feature){
         fillColor: getColor(nilai),
         weight: 1.5,
         color: '#666',
-        fillOpacity: 0.4, // Dikurangi sedikit agar tembus pandang
-        pane: 'kecamatanPane' // Terikat di pane bawah
+        fillOpacity: 0.4, 
+        pane: 'kecamatanPane' 
     };
 }
 
 // =======================
-// LOGIKA PENCARIAN SEKOLAH (AUTOCOMPLETE TENGAH ATAS)
+// LOGIKA PENCARIAN SEKOLAH
 // =======================
 const searchInput = document.getElementById('search-sekolah');
 const searchResults = document.getElementById('search-results');
@@ -99,16 +91,13 @@ searchInput.addEventListener('input', function(e) {
                 item.className = 'px-4 py-2.5 hover:bg-blue-50 cursor-pointer border-b border-gray-100 transition last:border-0 font-medium text-gray-700 text-xs md:text-sm';
                 item.textContent = namaSekolah;
                 
-                // Aksi saat item hasil pencarian diklik
                 item.addEventListener('click', function() {
                     searchInput.value = namaSekolah;
                     searchResults.classList.add('hidden');
                     
-                    // Terbang ke koordinat sekolah, beri zoom level 16
                     const latlng = layer.getLatLng();
                     map.flyTo(latlng, 16, { animate: true, duration: 1.5 });
                     
-                    // Tunggu animasi selesai, lalu buka Popup informasi sekolah
                     setTimeout(() => {
                         layer.openPopup();
                     }, 1500);
@@ -130,7 +119,6 @@ searchInput.addEventListener('input', function(e) {
     }
 });
 
-// Tutup menu drop-down pencarian jika pengguna mengklik area luar komponen pencarian
 document.addEventListener('click', function(e) {
     if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
         searchResults.classList.add('hidden');
@@ -138,13 +126,13 @@ document.addEventListener('click', function(e) {
 });
 
 // =======================
-// LAYER AKSESIBILITAS DI SEKITAR SEKOLAH (DINAMIS - ORS)
+// DYNAMIC ISOCHRONE (ORS)
 // =======================
 const ORS_API_KEY = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImQ4NjkxMWE0MDU4OTQzMzk4NDJjNTcwZjYxYmM1MzRiIiwiaCI6Im11cm11cjY0In0=';
 
 function buatAksesbilitasDinamis(lat, lng, namaSekolah) {
     const url = `https://api.openrouteservice.org/v2/isochrones/driving-car`;
-    const batasanWaktu = [180, 360, 600]; // 3 Menit, 6 Menit, 10 Menit
+    const batasanWaktu = [180, 360, 600]; 
 
     fetch(url, {
         method: 'POST',
@@ -164,18 +152,17 @@ function buatAksesbilitasDinamis(lat, lng, namaSekolah) {
         return response.json();
     })
     .then(data => {
-        // Balik urutan agar poligon terbesar (merah) digambar duluan/paling bawah
         data.features.reverse();
 
         L.geoJSON(data, {
             style: function(feature) {
                 const value = feature.properties.value; 
                 if (value <= 180) {
-                    return { color: '#28a745', fillColor: '#28a745', fillOpacity: 0.45, weight: 1.5, pane: 'isochronePane' };
+                    return { color: '#10b981', fillColor: '#10b981', fillOpacity: 0.45, weight: 1.5, pane: 'isochronePane' };
                 } else if (value <= 360) {
-                    return { color: '#ffc107', fillColor: '#ffc107', fillOpacity: 0.30, weight: 1.5, pane: 'isochronePane' };
+                    return { color: '#f59e0b', fillColor: '#f59e0b', fillOpacity: 0.30, weight: 1.5, pane: 'isochronePane' };
                 } else {
-                    return { color: '#dc3545', fillColor: '#dc3545', fillOpacity: 0.15, weight: 1.5, pane: 'isochronePane' };
+                    return { color: '#f43f5e', fillColor: '#f43f5e', fillOpacity: 0.15, weight: 1.5, pane: 'isochronePane' };
                 }
             },
             onEachFeature: function(feature, layer) {
@@ -184,7 +171,6 @@ function buatAksesbilitasDinamis(lat, lng, namaSekolah) {
                 let keterangan = `Zona Jangkauan: ${menit} Menit Berkendara`;
                 layer.bindPopup(`<b>${namaSekolah}</b><br>${keterangan}`);
 
-                // Masukkan ke grup masing-masing kontrol UI
                 if (value <= 180) {
                     layer.addTo(layerHijau);
                 } else if (value <= 360) {
@@ -193,22 +179,22 @@ function buatAksesbilitasDinamis(lat, lng, namaSekolah) {
                     layer.addTo(layerMerah);
                 }
             }
-        });
+        }).addTo(map);
     })
     .catch(err => console.error(`Gagal memuat jangkauan untuk ${namaSekolah}:`, err));
 }
 
 // =======================
-// LOAD DATA SMA
+// LOAD DATA SMA (GeoJSON Parser murni)
 // =======================
-fetch('api/api_sekolah.php')
+fetch('api_sekolah.php')
 .then(res => res.json())
-.then(data => {
-    smaLayer = L.geoJSON(data, {
+.then(geojsonData => {
+    smaLayer = L.geoJSON(geojsonData, {
         pointToLayer: function(feature, latlng){
             const nama = getFeatureName(feature.properties);
             
-            // Trigger API Jangkauan ORS
+            // Jalankan ORS Isokron
             buatAksesbilitasDinamis(latlng.lat, latlng.lng, nama);
 
             return L.circleMarker(latlng, {
@@ -217,7 +203,7 @@ fetch('api/api_sekolah.php')
                 color: '#fff',
                 weight: 1.5,
                 fillOpacity: 1,
-                pane: 'titikSekolahPane' // Dipaksa berada di urutan paling atas
+                pane: 'titikSekolahPane' 
             });
         },
         onEachFeature: function(feature, layer){
@@ -227,12 +213,13 @@ fetch('api/api_sekolah.php')
     });
     smaLayer.addTo(map);
     initializeLayers();
-});
+})
+.catch(err => console.error("Gagal memuat API Sekolah:", err));
 
 // =======================
 // LOAD DATA KECAMATAN
 // =======================
-fetch('data/kecamatan.geojson')
+fetch('../data/kecamatan.geojson')
 .then(res => res.json())
 .then(data => {
     if(data && data.features){
@@ -256,7 +243,7 @@ fetch('data/kecamatan.geojson')
 // =======================
 // LOAD DATA BUFFER
 // =======================
-fetch('data/buffer.geojson')
+fetch('../data/buffer.geojson')
 .then(res => res.json())
 .then(data => {
     if(data && data.features){
@@ -272,7 +259,7 @@ fetch('data/buffer.geojson')
 });
 
 // =======================
-// EVENT LISTENER TOMBOL CENTANG (PETA.PHP)
+// EVENT LISTENER CENTANG
 // =======================
 document.getElementById('chk-hijau').addEventListener('change', function(e) {
     if(e.target.checked) { map.addLayer(layerHijau); } else { map.removeLayer(layerHijau); }
@@ -287,7 +274,7 @@ document.getElementById('chk-merah').addEventListener('change', function(e) {
 });
 
 // =======================
-// LAYER CONTROL & AUTO CENTER
+// CONTROL INTERFACE LAYER
 // =======================
 let layerControl;
 
@@ -308,9 +295,8 @@ function initializeLayers(){
     if (kecamatanLayer) { overlayMaps["Batas Kecamatan"] = kecamatanLayer; groupLayers.push(kecamatanLayer); }
     if (bufferLayer) { overlayMaps["Radius Zonasi 3KM"] = bufferLayer; }
     
-    layerControl = L.control.layers(baseMaps, overlayMaps, { collapsed: false }).addTo(map);
+    layerControl = L.control.layers(baseMaps, overlayMaps, { collapsed: false });
 
-    // Auto-center peta jika layer utama telah termuat
     if (groupLayers.length > 0 && smaLayer) {
         map.fitBounds(smaLayer.getBounds());
     }
